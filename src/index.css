@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --container:1440px;
+  --H1:calc(2.4125rem + 1.5vw);
+  --H2:calc(2.1725rem + .9vw);
+  --H3:calc(1.9275rem + .6vw);
+  --H4:calc(1.6825rem + .3vw);
+  --H5:calc(1.46625rem + .15vw);
+  --H6:calc(1.233125rem + .075vw);
+}
+
+@layer base {
+  body{ @apply text-lg md:text-xl font-light leading-relaxed tracking-wide font-montserrat text-white text-opacity-80 bg-white-95;} 
+  p{@apply leading-normal;}
+  h1 { @apply text-h1 font-barlow;}
+  h2 { @apply text-h2 font-barlow;}
+  h3 { @apply text-h3 font-barlow;}
+  h4 { @apply text-h4 font-barlow;}
+  h5 { @apply text-h5 font-barlow;}
+  h6 { @apply text-h6 font-barlow;}
+  a { @apply text-primary-200;}
+  .container{@apply 2xl:!max-w-[var(--container)] px-5 mx-auto;}
+  .btn-primary{@apply text-white text-opacity-80 text-lg px-8 py-3 min-w-sp-160 rounded-full bg-primary-200 border border-primary-400;}
+  .btn{@apply relative top-0 translate-y-0 overflow-hidden before:bg-primary hover:before:rounded-none hover:before:translate-y-0;  }
+  .btn:before{@apply absolute bottom-0 left-0 w-full h-full rounded-[100%] z-[-1] translate-y-full;
+    transition: all 1s cubic-bezier(.19,1,.22,1);
+  }
+  .sec-space{@apply py-sp-80 md:py-sp-100 xl:py-sp-130;}
+}
+
+.hamburger .line {transition: stroke-dasharray 600ms cubic-bezier(.4,0,.2,1),stroke-dashoffset 600ms cubic-bezier(.4,0,.2,1)}
+
+
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 300px;
+  flex: 1 0 auto;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 18px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #000;
+}
+
+
+
+
+
+
+
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 64px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+}
