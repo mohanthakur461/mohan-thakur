@@ -2,10 +2,9 @@ import React, { useState } from 'react'
 import styles from "../page.module.css"
 
 const navLinks = [
-  { title: 'Home', path : '#home' },
-  { title: 'About', path : '#about' },
+  { title: 'Home', path : '/#home' },
+  { title: 'About', path : '/#aboutSection' },
   { title: 'Work', path : '#work' },
-  { title: 'Testimonial', path : '#testimonial' },
   { title: 'Get In Touch', path : '#getintouch'},
 
 ]
@@ -14,9 +13,9 @@ const Header = () => {
   const [nav, setNav] = useState(false);
   const toggleNav = () => {setNav(!nav)}
   return (
-    <header className={`mainHeader w-full z-50  fixed bg-primary-100`}>
+    <header className={`mainHeader w-full z-50  fixed bg-secondary`}>
       <nav className={`navbar ${nav? "open-menu": ""}`}>
-        <div className="container flex justify-between items-center ">
+        <div className="container flex justify-between items-center min-h-14">
             <a className="navbar-brand relative" href="#">
               <span className="header__title__text text-4xl text-white uppercase font-barlow">MohanT</span>
                 <svg className="logo--l overflow-visible absolute left-0 top-7 z-[2]" width="40" height="40" fill="none" viewBox="0 0 25 25" aria-hidden="true">
@@ -26,7 +25,7 @@ const Header = () => {
                 </g>
             </svg> 
             </a>
-            <button className={`hamburger md:hidden relative z-10 w-7 h-7 text-[28px] cursor-pointer transition-all duration-300 ${nav? "active" : ""}`} onClick={toggleNav} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className={`hamburger md:hidden relative top-0 transform-none bg-transparent p-0 z-10 text-[28px] cursor-pointer transition-all duration-300 ${nav? "active" : ""}`} onClick={toggleNav} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <svg className='w-12 h-12' width="100" height="100" viewBox="0 0 100 100">
                 <path className="line line1" fill="none" stroke="white" strokeOpacity="0.8" strokeWidth="6" strokeDasharray={`${nav? "90 207": "60 207"}`}  strokeDashoffset={`${nav? "-134": "0"}`} d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
                 <path className="line line2" fill="none" stroke="white" strokeOpacity="0.8" strokeWidth="6" strokeDasharray={`${nav? "1 60": "60 60"}`} strokeDashoffset={`${nav? "-30": "0"}`} d="M 20,50 H 80"></path>
@@ -37,7 +36,7 @@ const Header = () => {
               <ul className="navbar-nav flex gap-5 md:gap-12 flex-col md:flex-row">
                 { navLinks.map((link, index) => (
                       <li key={index} className="nav-item">
-                        <a className="text-xl uppercase text-white opacity-80 py-4 inline-block font-barlow tracking-wide" href={link.path}  onClick={(e) => {
+                        <a className="text-2xl uppercase text-white opacity-80 py-4 inline-block font-barlow tracking-wide" href={link.path}  onClick={(e) => {
                             e.preventDefault(); 
                             document.getElementById(link.path)?.scrollIntoView({ behavior: "smooth" });
                           }}>{link.title}</a>

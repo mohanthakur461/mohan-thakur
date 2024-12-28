@@ -2,82 +2,54 @@
     "personalInfo":[
         {
             "name": "Mohan Thakur",
-            "profile":"src/assets/img/profile.png",
-            "brif": "Experienced frontend developer with a passion for creating visually appealing and user-friendly web applications. Skilled in HTML, CSS, JavaScript, React, and responsive design. Strong problem-solving and collaboration abilities. Committed to delivering high-quality code and exceeding client expectations.",
+            "profile":"src/assets/Images/mohan.jpg",
+            "brif":"I specialize in developing modern, responsive, and user-focused web applications that deliver exceptional performance and seamless user experiences.",
+            "fbrif": "I am a passionate frontend developer with expertise in crafting responsive, user-friendly web applications. With a strong foundation in modern frameworks like React.js and Next.js and years of experience building engaging digital experiences, I thrive at the intersection of design and functionality. My technical proficiency, combined with an eye for detail, allows me to bring creative concepts to life. I’m currently available for a full-time position and excited to collaborate on innovative projects that push the boundaries of web development.",
             "company":"Rivulet Digital" , 
             "birthday": "09 December",
-            "designation": "Frontend web developer",
+            "designation": "Front-end Developer",
             "skype": "mohan.thakur61",
             "linkdin":"mohanlal-thakur-42b686121",
-            "pintrest":"mohant8",
-            "youtube": "@mohanthakur117",
             "email" : "designermt8@gmail.com",
             "phone" : "+91771040630",
-            "website": "www.test.com",  
-            "address" : "Ahmedabad",
-            "faddress" : "Vejalpur, Ahmedabad",
+            "address" : "Ahmedabad, India",
             "social":[
-                {"title":"Facebook" , "icon":"fa-facebook-f", "url":"https://www.facebook.com/mohan.thakur.54772"},
-                {"title":"LinkedIn" , "icon":"fa-linkedin-in", "url":"https://www.linkedin.com/in/mohanlal-thakur-42b686121/"},
-                {"title":"Instagram", "icon":"fa-instagram", "url":"https://www.instagram.com/mohanthakur461/"}
-            ],
-            "education":[
-                    {"id": 1, "title" : "Higher School", "university" : "C.G Board Raipur", "year" : "2006" , "discription": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."},
-                    {"id": 2, "title" : "Higher Secondary", "university" : "C.G Board Raipur", "year" : "2009" , "discription": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."},
-                    {"id": 3, "title" : "B.Com(Gradution)", "university" : "Pt. Ravishankar Shukla University Raipur", "year" : "2012" , "discription": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."},
-                    {"id": 4, "title" : "Expert In Multimedia", "university" : "Reflection Multimedia Bhilai", "year" : "2014" , "discription": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."}
+                {"title":"Facebook" , "icon":"src/assets/Images/social/facebook-white.svg", "url":"https://www.facebook.com/mohan.thakur.54772"},
+                {"title":"LinkedIn" , "icon":"src/assets/Images/social/linkedin-white.svg", "url":"https://www.linkedin.com/in/mohanlal-thakur-42b686121/"},
+                {"title":"Instagram", "icon":"src/assets/Images/social/instagram-white.svg", "url":"https://www.instagram.com/mohanthakur461/"}
             ],
             "skill":[ 
-                {"id": 1, "title": "HTML5", "rating" : "4.5", "icon": "img/skill/html-5.svg"},
-                {"id": 2, "title": "CSS3", "rating" : "4.5" , "icon": "img/skill/css3.svg"},
-                {"id": 3, "title": "Bootstrap", "rating" : "4.25", "icon": "img/skill/bootstrap.svg"},
-                {"id": 4, "title": "SASS", "rating" : "4", "icon": "img/skill/sass.svg" },
-                {"id": 5, "title": "Jquery", "rating" : "3.25" , "icon": "img/skill/jquery.svg"},
-                {"id": 6, "title": "Javascript", "rating" : "3.5" , "icon": "img/skill/js.svg"},
-                {"id": 7, "title": "Wordpress", "rating" : "4", "icon": "img/skill/wordpress.svg"},
-                {"id": 8, "title": "Elementor", "rating" : "4.25",  "icon": "img/skill/elementor.svg"},
-                {"id": 9, "title": "Webflow", "rating" : "3.5", "icon": "img/skill/webflow.svg"},    
-                {"id": 10, "title": "React", "rating" : "3.25" , "icon": "img/skill/react-js.svg"},
-                {"id": 11, "title": "GSAP", "rating" : "3.75", "icon": "img/skill/gsap.svg"},
-                {"id": 12, "title": "Three JS", "rating" : "3.25" , "icon": "img/skill/threejs.svg"} 
+                {"title": "HTML5", "icon": "img/skill/html-5.svg"},
+                {"title": "CSS3",  "icon": "img/skill/css3.svg"},
+                {"title": "Bootstrap", "icon": "img/skill/bootstrap.svg"},
+                {"title": "SASS", "icon": "img/skill/sass.svg" },
+                {"title": "Jquery", "icon": "img/skill/jquery.svg"},
+                {"title": "Javascript", "icon": "img/skill/js.svg"},
+                {"title": "Wordpress", "icon": "img/skill/wordpress.svg"},
+                {"title": "Elementor", "icon": "img/skill/elementor.svg"},
+                {"title": "Webflow", "icon": "img/skill/webflow.svg"},    
+                {"title": "React",  "icon": "img/skill/react-js.svg"},
+                {"title": "Next",  "icon": "img/skill/react-js.svg"},
+                {"title": "Tailwind",  "icon": "img/skill/react-js.svg"},
+                {"title": "Framer-motion",  "icon": "img/skill/react-js.svg"},
+                {"title": "GSAP",  "icon": "img/skill/gsap.svg"},
+                {"title": "Three JS", "icon": "img/skill/threejs.svg"} 
             ],
 
             "expireance":[ 
-                {"id": 1, "title": "Vervesystem Pvt. Ltd", "designation":"Multimedia Designer", "location": "Ahmedabad", "yearFrom" : "2014", "yearTo" : "2016", "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-                {"id": 2, "title": "Vervesystem Pvt. Ltd", "designation":"Multimedia Designer", "location": "Ahmedabad", "yearFrom" : "2016", "yearTo" : "2021", "description":"Worked in verve systems pvt.ltd. as a from Junior to Senior Multimedia Designer. Worked on ample number of projects since my inclusion in the organization."},
-                {"id": 3, "title": "Rivulet Digital Pvt. Ltd", "designation":"HTML Developer", "location": "Ahmedabad", "yearFrom" : "2021", "yearTo" : "Present", "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
-            ],
-
-            "award":[ 
-                {"id": 1, "title": "Employee of the Month", "poster": "img/award/employee-of-the-mont.jpg" , "year": "Novnmber 2015"},
-                {"id": 3, "title": "Pat on the Back", "poster": "img/award/pat-on-the-back.jpg" , "year": "2016 - 2017"},      
-                {"id": 4, "title": "Rising Stars", "poster": "img/award/rising-star.jpg" , "year": "2017 - 2018"},    
-                {"id": 5, "title": "The Pillar of Verve Syetem", "poster": "img/award/pillar-of-verve.jpg" , "year": "2018 - 2019"}      
+                {"title": "Vervesystem Pvt. Ltd", "designation":"Multimedia Designer", "location": "Ahmedabad", "yearFrom" : "2014", "yearTo" : "2016", "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
+                {"title": "Vervesystem Pvt. Ltd", "designation":"Multimedia Designer", "location": "Ahmedabad", "yearFrom" : "2016", "yearTo" : "2021", "description":"Worked in verve systems pvt.ltd. as a from Junior to Senior Multimedia Designer. Worked on ample number of projects since my inclusion in the organization."},
+                {"title": "Rivulet Digital Pvt. Ltd", "designation":"HTML Developer", "location": "Ahmedabad", "yearFrom" : "2021", "yearTo" : "Present", "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
             ],
 
             "work":[
-                {"id":1, "title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "https://img.veenaworld.com/wp-content/uploads/2022/11/The-Best-Time-to-Visit-Greece-%E2%80%93-A-Seasonal-Guide-scaled-e1668532223187-800x530.jpg"},
-                {"id":2, "title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets//img/project/fiber-cable-reel-on-road01.jpg"},
-                {"id":3, "title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/img/project/ford-adventure-truck-desert-drive01.jpg"},
-                {"id":4, "title": "ScaleNorth", "category": "Wordpress", "url":"https://scalenorth.com/",  "img" : "https://img.veenaworld.com/wp-content/uploads/2022/11/The-Best-Time-to-Visit-Greece-%E2%80%93-A-Seasonal-Guide-scaled-e1668532223187-800x530.jpg"},
-                {"id":5, "title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "https://img.veenaworld.com/wp-content/uploads/2022/11/The-Best-Time-to-Visit-Greece-%E2%80%93-A-Seasonal-Guide-scaled-e1668532223187-800x530.jpg"}
-            ],
-
-            "tesimonial":[ 
-                {"id":1, "category": "Testimonial", "designation":"Owner", "Comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", "author":"Jhon", "picture": "src/assets/img/testimonial/testimonials-01-179x179.png"},
-                {"id":2, "category": "Testimonial", "designation":"President", "Comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ", "author":"Ram",  "picture": "src/assets/img/testimonial/testimonials-02-306x306.png"},
-                {"id":3, "category": "Testimonial", "designation":"Team Lead", "Comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ", "author":"Rohan",  "picture": "src/assets/img/testimonial/testimonials-03-179x179.png"}
-            ],
-
-            "service":[ 
-                {"id":1, "title": "Web Designing", "icon":"https://cdn-icons-png.flaticon.com/512/72/72626.png", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", "picture": "https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png"},
-                {"id":2, "title": "Web Devlopment", "icon":"https://cdn-icons-png.flaticon.com/512/72/72626.png", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",  "picture": "https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png"},
-                {"id":3, "title": "Graphic Design", "icon":"https://cdn-icons-png.flaticon.com/512/72/72626.png", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",  "picture": "https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png"}
+                {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
+                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
+                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
+                {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets/Images/work/millennium.jpg"},
+                {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/Images/work/liquidspring.jpg"},
+                {"title": "ScaleNorth", "category": "Wordpress", "url":"https://scalenorth.com/",  "img" : "src/assets/Images/work/workplaceholder.webp"}
             ]
         }
     ]
-   
-
-    
-   
 }

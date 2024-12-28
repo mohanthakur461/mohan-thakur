@@ -22,16 +22,13 @@ export default {
       },
       colors :{
         "primary": {
-          DEFAULT: '#395988',
-          100: "#21395d",
-          200: "#1a2a43",
-          300: "#0a111b",
-          400: "#c18638",
+          light: '#443122',
+          DEFAULT: '#f68e31',
         },
-        "second": {
-          light: '#67e8f9',
-          DEFAULT: '#06b6d4',
-          dark: '#0e7490',
+        "secondary": {
+          light: '#272c35',
+          DEFAULT: '#161a22',
+          dark: "#131313",
         },
         white:{
           DEFAULT:'#ffffff',

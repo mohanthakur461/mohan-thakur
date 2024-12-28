@@ -11,15 +11,14 @@ const tech = [
   "/brands/gsap.svg",
   "/brands/threejs.svg",
   "/brands/react-js.svg",
-  
   "/brands/next.svg",
   "/brands/tailwind.svg",
 ];
 
 const Technology = ({marquee}) => {
   return (
-    <ul className={`clientList ${marquee? marquee : "animate-marquee"}  inline-flex gap-5 `}> 
-        {tech.map((elm, index) => (<li key={index} className="p-10 aspect-[1/.7] inline-flex flex-col items-center justify-center bg-white-90"> <img src={elm} alt={`Client ${index + 1}`} className="w-full min-w-32 h-full max-h-full opacity-90" loading="lazy" /></li>))}    
+    <ul className={`clientList ${marquee? marquee : "animate-marquee"}  inline-flex gap-1 md:gap-3`}> 
+        {tech.map((elm, index) => (<li key={index} className="py-3 px-4 md:py-5 md:px-6 aspect-[1/.7] inline-flex flex-col items-center justify-center bg-secondary"> <img src={elm} alt={`Client ${index + 1}`} className="w-full min-w-14 md:min-w-20 h-full max-h-full opacity-90" loading="lazy" /></li>))}    
     </ul>
   )
 }
