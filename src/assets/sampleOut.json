@@ -19,21 +19,20 @@
                 {"title":"Instagram", "icon":"src/assets/Images/social/instagram-white.svg", "url":"https://www.instagram.com/mohanthakur461/"}
             ],
             "skill":[ 
-                {"title": "HTML5", "icon": "img/skill/html-5.svg"},
-                {"title": "CSS3",  "icon": "img/skill/css3.svg"},
-                {"title": "Bootstrap", "icon": "img/skill/bootstrap.svg"},
-                {"title": "SASS", "icon": "img/skill/sass.svg" },
-                {"title": "Jquery", "icon": "img/skill/jquery.svg"},
-                {"title": "Javascript", "icon": "img/skill/js.svg"},
-                {"title": "Wordpress", "icon": "img/skill/wordpress.svg"},
-                {"title": "Elementor", "icon": "img/skill/elementor.svg"},
-                {"title": "Webflow", "icon": "img/skill/webflow.svg"},    
-                {"title": "React",  "icon": "img/skill/react-js.svg"},
-                {"title": "Next",  "icon": "img/skill/react-js.svg"},
-                {"title": "Tailwind",  "icon": "img/skill/react-js.svg"},
-                {"title": "Framer-motion",  "icon": "img/skill/react-js.svg"},
-                {"title": "GSAP",  "icon": "img/skill/gsap.svg"},
-                {"title": "Three JS", "icon": "img/skill/threejs.svg"} 
+                {"title": "HTML5", "icon": "src/assets/Images/skill/html-5.svg"},
+                {"title": "CSS3",  "icon": "src/assets/Images//skill/css3.svg"},
+                {"title": "Bootstrap", "icon": "src/assets/Images/skill/bootstrap.svg"},
+                {"title": "SASS", "icon": "src/assets/Images/skill/sass.svg" },
+                {"title": "Jquery", "icon": "src/assets/Images/skill/jquery.svg"},
+                {"title": "Javascript", "icon": "src/assets/Images/skill/js.svg"},
+                {"title": "Wordpress", "icon": "src/assets/Images/skill/wordpress.svg"},
+                {"title": "Elementor", "icon": "src/assets/Images/skill/elementor.svg"},
+                {"title": "Webflow", "icon": "src/assets/Images/skill/webflow.svg"},    
+                {"title": "React",  "icon": "src/assets/Images/skill/react-js.svg"},
+                {"title": "Next",  "icon": "src/assets/Images/skill/next.svg"},
+                {"title": "Tailwind",  "icon": "src/assets/Images/skill/tailwind.svg"},
+                {"title": "GSAP",  "icon": "src/assets/Images/skill/gsap.svg"}, 
+                {"title": "Three JS", "icon": "src/assets/Images/skill/threejs.svg"} 
             ],
 
             "expireance":[ 
@@ -49,7 +48,16 @@
                 {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets/Images/work/millennium.jpg"},
                 {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/Images/work/liquidspring.jpg"},
                 {"title": "ScaleNorth", "category": "Wordpress", "url":"https://scalenorth.com/",  "img" : "src/assets/Images/work/workplaceholder.webp"}
+            ],
+
+            "tool":[ 
+                {"title": "HTML5", "icon": "src/assets/Images/tools/vscode.svg"},
+                {"title": "CSS3",  "icon": "src/assets/Images//tools/photoshop.svg"},
+                {"title": "Bootstrap", "icon": "src/assets/Images/tools/xd.svg"},
+                {"title": "SASS", "icon": "src/assets/Images/tools/figma.svg" },
+                {"title": "Jquery", "icon": "src/assets/Images/tools/illustrator.svg"}
             ]
+
         }
     ]
 }

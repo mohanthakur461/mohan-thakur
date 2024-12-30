@@ -8,7 +8,7 @@ const Footer = ({info}) => {
           <ul className="py-14 flex justify-center items-center gap-5">
                {
                 info.map((elm)=>(
-                    <li key={elm.title}><a className="text-[0] leading-[0] block" href={elm.url} target="_blank"><img src={elm.icon} alt={elm.title} width={40} height={40}/>{elm.title}</a></li>
+                    <li key={elm.title}><a className="text-[0] leading-[0] block" href={elm.url} target="_blank"><img src={elm.icon} alt={`${elm.title} Icon`} width={40} height={40}/>{elm.title}</a></li>
                   ))
                 }
           </ul>

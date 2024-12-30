@@ -26,12 +26,12 @@ function App() {
       <Work info={info.work} />
       <section className="brands py-8 space-y-1 md:space-y-3">
           <div className="whitespace-nowrap overflow-x-hidden space-x-1 md:space-x-3 relative">
-            <Technology />
-            <Technology/>
+            <Technology info={info.skill} />
+            <Technology info={info.skill}/>
           </div>
           <div className="whitespace-nowrap overflow-x-hidden space-x-1 md:space-x-3 relative">
-            <Technology marquee={"animate-marquee2"} />
-            <Technology marquee={"animate-marquee2"} />
+            <Technology info={info.skill} marquee={"animate-marquee2"} />
+            <Technology info={info.skill} marquee={"animate-marquee2"} />
           </div>
         </section>
      <Footer info={info.social}/>
