@@ -4,7 +4,6 @@
             "name": "Mohan Thakur",
             "profile":"src/assets/Images/mohan.jpg",
             "brif":"I specialize in developing modern, responsive, and user-focused web applications that deliver exceptional performance and seamless user experiences.",
-            "fbrif": "I am a passionate frontend developer with expertise in crafting responsive, user-friendly web applications. With a strong foundation in modern frameworks like React.js and Next.js and years of experience building engaging digital experiences, I thrive at the intersection of design and functionality. My technical proficiency, combined with an eye for detail, allows me to bring creative concepts to life. I’m currently available for a full-time position and excited to collaborate on innovative projects that push the boundaries of web development.",
             "company":"Rivulet Digital" , 
             "birthday": "09 December",
             "designation": "Front-end Developer",
@@ -43,7 +42,7 @@
 
             "work":[
                 {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
-                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
+                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/continental.jpg"},
                 {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
                 {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets/Images/work/millennium.jpg"},
                 {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/Images/work/liquidspring.jpg"},

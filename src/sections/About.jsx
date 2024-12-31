@@ -1,19 +1,29 @@
 
 import BioItem from '../components/BioItem';
-import { motion } from 'framer-motion';
+import { easeIn, motion } from 'framer-motion';
 import Paragraph from '../components/Paragraph';
 import dataAbout from '../assets/sampleOut.json'
 
-const tools = ["/tools/vscode.svg", "/tools/photoshop.svg", "/tools/xd.svg", "/tools/figma.svg", "/tools/illustrator.svg"]
+
+const tools = ["/tools/vscode.svg", "/tools/photoshop.svg", "/tools/xd.svg", "/tools/figma.svg", "/tools/illustrator.svg"];
+
+let brief = "I am a passionate frontend developer with expertise in crafting responsive, user-friendly web applications. With a strong foundation in modern frameworks like React.js and Next.js and years of experience building engaging digital experiences, I thrive at the intersection of design and functionality. My technical proficiency, combined with an eye for detail, allows me to bring creative concepts to life.";
+
+let brief2 = "I’m currently available for a full-time position and excited to collaborate on innovative projects that push the boundaries of web development.";
+
+let brief3 = "I am a frontend developer specializing in building responsive, user-friendly web applications using modern frameworks like React.js and Next.js. With a strong focus on design and functionality, I bring creative ideas to life and am eager to contribute to innovative projects. Currently available for a full-time position."
 
 const About = ({info}) => {
   return (
     <section className="aboutUs py-sp-50 md:py-sp-100" id="aboutSection">
-        <div className="container xl:!max-w-screen-xl flex flex-col md:flex-row md:flex-wrap gap-6 lg:gap-10 xl:gap-20">
+        <div className="container xl:!max-w-[1200px] flex flex-col md:flex-row md:flex-wrap gap-6 lg:gap-10 xl:gap-20">
             <div className='head  text-center'>
-              <motion.h2 className='uppercase mb-8 font-bold'  initial={{ opacity: 0, transform: "translateY(30px)"}}
-  whileInView={{ opacity: 1,  transform: "translateY(0px)" }}>About</motion.h2>
-              <Paragraph value={info.fbrif} cls={"text-h6 md:text-[36px] font-montserrat font-normal flex flex-wrap justify-center"} />
+              <div className="headContainer overflow-hidden">
+              {/* <motion.h2 className='uppercase mb-8 font-bold'  initial={{ opacity: 0, transform: "translate(0, 200%)"}}
+  whileInView={{ opacity: 1,  transform: "translate(0px, 0px)" }} transition={{duration: 0.55}}>About</motion.h2> */}
+              </div>
+              <Paragraph value={brief3} cls={"text-h6 md:text-[40px] font-montserrat font-normal flex flex-wrap"} />
+              {/* <Paragraph value={brief2} cls={"text-h6 md:text-[40px] font-montserrat font-normal flex flex-wrap justify-center"} /> */}
             </div>
             {/* <h2 className="w-full text-white font-anton">About</h2> */}
             <div className="w-[360px] max-w-full">

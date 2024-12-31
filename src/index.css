@@ -14,7 +14,8 @@
 
 @layer base {
   body{@apply text-lg md:text-xl font-light leading-relaxed tracking-wide font-montserrat text-white text-opacity-80 bg-secondary-dark;} 
-  p{@apply leading-normal;}
+  p{@apply leading-normal mb-5 text-pretty;}
+  p:last-child{@apply mb-0 ;}
   h1 { @apply text-h1 font-barlow;}
   h2 { @apply text-h2 font-barlow;}
   h3 { @apply text-h3 font-barlow;}
@@ -29,10 +30,13 @@
     transition: all 1s cubic-bezier(.19,1,.22,1);
   }
   .sec-space{@apply py-sp-80 md:py-sp-100 xl:py-sp-130;}
+  
 }
 
 .hamburger .line {transition: stroke-dasharray 600ms cubic-bezier(.4,0,.2,1),stroke-dashoffset 600ms cubic-bezier(.4,0,.2,1)}
-
+.anim-delay-800{animation-delay: 800ms;}
+.anim-delay-1600{animation-delay: 1600ms;}
+.anim-delay-2400{animation-delay: 2400ms;}
 
 
 .slider {
