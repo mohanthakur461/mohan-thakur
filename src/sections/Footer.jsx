@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = ({info}) => {
   return (
-    <footer className="mainfooter bg-secondary relative z-10">
+    <footer className="mainfooter bg-secondary-darkest relative z-10">
   <div className="footer-top">
     <div className="container">
           <ul className="py-14 flex justify-center items-center gap-5">

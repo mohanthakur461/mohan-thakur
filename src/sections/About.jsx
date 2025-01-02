@@ -27,7 +27,7 @@ const About = ({info}) => {
             </div>
             {/* <h2 className="w-full text-white font-anton">About</h2> */}
             <div className="w-[360px] max-w-full">
-              <div className='bg-secondary-light p-4 rounded-lg'>
+              <div className='bg-secondary p-4 rounded-lg'>
                 <img src={info.profile} alt={info.name} width={644} height={996} loading="lazy"/>
               </div>
             </div>
@@ -42,7 +42,7 @@ const About = ({info}) => {
               </ul>
               <ul className='flex flex-wrap gap-3 md:gap-4'>
                 {tools.map((item, index)=>(
-                     <li key={index} className="w-12 md:w-16 p-2 md:p-3 rounded-md  aspect-[1/1] inline-flex flex-col items-center justify-center bg-secondary-light"> <img alt="Client 1" className="w-full min-w-10 h-full max-h-full opacity-90" src={item} loading="lazy" /></li>
+                     <li key={index} className="w-12 md:w-16 p-2 md:p-3 rounded-md  aspect-[1/1] inline-flex flex-col items-center justify-center bg-secondary"> <img alt="Client 1" className="w-full min-w-10 h-full max-h-full opacity-90" src={item} loading="lazy" /></li>
                 ))}
               </ul>
             </div>

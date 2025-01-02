@@ -45,6 +45,8 @@ export default {
           light: '#272c35',
           DEFAULT: '#161a22',
           dark: "#131313",
+          darkest: "#02030d",
+          
         },
         white:{
           DEFAULT:'#ffffff',

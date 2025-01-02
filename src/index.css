@@ -13,7 +13,7 @@
 }
 
 @layer base {
-  body{@apply text-lg md:text-xl font-light leading-relaxed tracking-wide font-montserrat text-white text-opacity-80 bg-secondary-dark;} 
+  body{@apply text-lg md:text-xl font-light leading-relaxed tracking-wide font-montserrat text-white text-opacity-80 bg-secondary-darkest;} 
   p{@apply leading-normal mb-5 text-pretty;}
   p:last-child{@apply mb-0 ;}
   h1 { @apply text-h1 font-barlow;}
@@ -34,9 +34,10 @@
 }
 
 .hamburger .line {transition: stroke-dasharray 600ms cubic-bezier(.4,0,.2,1),stroke-dashoffset 600ms cubic-bezier(.4,0,.2,1)}
+
 .anim-delay-800{animation-delay: 800ms;}
 .anim-delay-1600{animation-delay: 1600ms;}
-.anim-delay-2400{animation-delay: 2400ms;}
+.anim-delay-2400{animation-delay: 2400s;}
 
 
 .slider {
