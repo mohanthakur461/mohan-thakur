@@ -15,7 +15,7 @@ const Header = () => {
     <header className={`mainHeader w-full z-50  fixed bg-secondary`}>
       <nav className={`navbar ${nav? "open-menu": ""}`}>
         <div className="container flex justify-between items-center min-h-14">
-            <a className="navbar-brand relative" href="#">
+            <a className="navbar-brand relative" href="/">
               <span className="header__title__text text-4xl text-white uppercase font-barlow">MohanT</span>
                 <svg className="logo--l overflow-visible absolute left-0 top-7 z-[2]" width="40" height="40" fill="none" viewBox="0 0 25 25" aria-hidden="true">
                 <g className="logo--l__circle scale-[0.2] translate-x-[63px]">

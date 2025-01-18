@@ -32,7 +32,7 @@ const About = ({info}) => {
               </div>
             </div>
             <div className="md:flex-1 md:self-center">
-              <ul className='grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 mb-12'>
+              <ul className='grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 mb-12'>
               <BioItem keyName={"Name"} title={info.name} />
               <BioItem keyName={"Designation"} title={info.designation} />
               <BioItem keyName={"Email"} title={info.email} url={`mailto:${info.email}`} />

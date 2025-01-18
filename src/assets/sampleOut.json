@@ -41,12 +41,12 @@
             ],
 
             "work":[
-                {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
+                {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "src/assets/Images/work/bonefireeffect.png"},
                 {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/continental.jpg"},
-                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/workplaceholder.webp"},
+                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/havis.png"},
                 {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets/Images/work/millennium.jpg"},
                 {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/Images/work/liquidspring.jpg"},
-                {"title": "ScaleNorth", "category": "Wordpress", "url":"https://scalenorth.com/",  "img" : "src/assets/Images/work/workplaceholder.webp"}
+                {"title": "Rac-JAC", "category": "Wordpress", "url":"https://www.racjac.com/",  "img" : "src/assets/Images/work/racjac.png"}
             ],
 
             "tool":[ 

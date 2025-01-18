@@ -13,7 +13,7 @@
 }
 
 @layer base {
-  body{@apply text-lg md:text-xl font-light leading-relaxed tracking-wide font-montserrat text-white text-opacity-80 bg-secondary-darkest;} 
+  body{@apply text-base md:text-xl font-light leading-relaxed tracking-wide font-montserrat text-white text-opacity-80 bg-secondary-darkest;} 
   p{@apply leading-normal mb-5 text-pretty;}
   p:last-child{@apply mb-0 ;}
   h1 { @apply text-h1 font-barlow;}
@@ -29,7 +29,7 @@
   .btn:before{@apply absolute bottom-0 left-0 w-full h-full rounded-[100%] z-[-1] translate-y-full;
     transition: all 1s cubic-bezier(.19,1,.22,1);
   }
-  .sec-space{@apply py-sp-80 md:py-sp-100 xl:py-sp-130;}
+  .sec-space{@apply py-sp-50 md:py-sp-100 xl:py-sp-130;}
   
 }
 
