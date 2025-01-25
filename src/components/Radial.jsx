@@ -19,7 +19,7 @@ const Radial = ({info}) => {
         </div>
         <div className="circle-anim relative pt-3 w-[272px] h-[272px] mb-[-140px] md:mb-[-240px] mx-auto ">
             <div className="bg-circle absolute inset-0 rounded-full">
-                <img src="/src/assets/Images/glowing-ball.png" width={272} height={272} alt="glowing" loading="lazy"/>
+                <img src="/glowing-ball.png" width={272} height={272} alt="glowing" loading="lazy"/>
                 <div className="absolute inset-0 border border-white border-opacity-20 rounded-full animate-circle "></div>
                 <div className="absolute inset-0 border border-white border-opacity-20 rounded-full animate-circle anim-delay-800"></div>
                 <div className="absolute inset-0 border border-white border-opacity-20 rounded-full animate-circle anim-delay-1600"></div>

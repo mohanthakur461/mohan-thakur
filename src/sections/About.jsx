@@ -2,7 +2,6 @@
 import BioItem from '../components/BioItem';
 import { easeIn, motion } from 'framer-motion';
 import Paragraph from '../components/Paragraph';
-import profile from '../assets/Images/mohan.jpg';
 
 let brief3 = "I am a frontend developer specializing in building responsive, user-friendly web applications using modern frameworks like React.js and Next.js. With a strong focus on design and functionality, I bring creative ideas to life and am eager to contribute to innovative projects. Currently available for a full-time position."
 
@@ -15,7 +14,7 @@ const About = ({info}) => {
             </div>
             <div className="w-[360px] max-w-full">
               <div className='bg-secondary p-4 rounded-lg'>
-                <img src={profile} alt={info.name} width={450} height={492} loading="lazy"/>
+                <img src={info.profile} alt={info.name} width={450} height={492} loading="lazy"/>
               </div>
             </div>
             <div className="md:flex-1 md:self-center">

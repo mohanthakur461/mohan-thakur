@@ -1,5 +1,4 @@
 import React from 'react'
-import profile from '../assets/Images/mohan.jpg';
 
 const Hero = ({info}) => {
   return (
@@ -8,7 +7,7 @@ const Hero = ({info}) => {
           <div className='w-full flex flex-col justify-center items-center'>
                 <div className='main-profile w-full text-center mb-8'>
                   <div className="profile-img mb-0 mx-auto w-[150px] h-[150px] relative overflow-hidden border-8 rounded-full bg-primary-900 border-secondary-light">
-                      <img src={profile} alt="Mohan Thakur" width={134} height={147}/> 
+                      <img src={info.profile} alt="Mohan Thakur" width={134} height={147}/> 
                   </div>
                 </div>
                 <h1 className="leading-tight text-center font-bold mb-5">👋 Hello I'm <span className="text-primary inline-block">{info.name}</span> I'm a <br className='hidden md:block'/> <span className='inline-block'>{info.designation}</span></h1>
