@@ -2,7 +2,7 @@
     "personalInfo":[
         {
             "name": "Mohan Thakur",
-            "profile":"src/assets/Images/mohan.jpg",
+            "profile":"/src/assets/Images/mohan.jpg",
             "brif":"I specialize in developing modern, responsive, and user-focused web applications that deliver exceptional performance and seamless user experiences.",
             "company":"Rivulet Digital" , 
             "birthday": "09 December",
@@ -13,25 +13,25 @@
             "phone" : "+91771040630",
             "address" : "Ahmedabad, India",
             "social":[
-                {"title":"Facebook" , "icon":"src/assets/Images/social/facebook-white.svg", "url":"https://www.facebook.com/mohan.thakur.54772"},
-                {"title":"LinkedIn" , "icon":"src/assets/Images/social/linkedin-white.svg", "url":"https://www.linkedin.com/in/mohanlal-thakur-42b686121/"},
-                {"title":"Instagram", "icon":"src/assets/Images/social/instagram-white.svg", "url":"https://www.instagram.com/mohanthakur461/"}
+                {"title":"Facebook" , "icon":"/src/assets/Images/social/facebook-white.svg", "url":"https://www.facebook.com/mohan.thakur.54772"},
+                {"title":"LinkedIn" , "icon":"/src/assets/Images/social/linkedin-white.svg", "url":"https://www.linkedin.com/in/mohanlal-thakur-42b686121/"},
+                {"title":"Instagram", "icon":"/src/assets/Images/social/instagram-white.svg", "url":"https://www.instagram.com/mohanthakur461/"}
             ],
             "skill":[ 
-                {"title": "HTML5", "icon": "src/assets/Images/skill/html-5.svg"},
-                {"title": "CSS3",  "icon": "src/assets/Images//skill/css3.svg"},
-                {"title": "Bootstrap", "icon": "src/assets/Images/skill/bootstrap.svg"},
-                {"title": "SASS", "icon": "src/assets/Images/skill/sass.svg" },
-                {"title": "Jquery", "icon": "src/assets/Images/skill/jquery.svg"},
-                {"title": "Javascript", "icon": "src/assets/Images/skill/js.svg"},
-                {"title": "Wordpress", "icon": "src/assets/Images/skill/wordpress.svg"},
-                {"title": "Elementor", "icon": "src/assets/Images/skill/elementor.svg"},
-                {"title": "Webflow", "icon": "src/assets/Images/skill/webflow.svg"},    
-                {"title": "React",  "icon": "src/assets/Images/skill/react-js.svg"},
-                {"title": "Next",  "icon": "src/assets/Images/skill/next.svg"},
-                {"title": "Tailwind",  "icon": "src/assets/Images/skill/tailwind.svg"},
-                {"title": "GSAP",  "icon": "src/assets/Images/skill/gsap.svg"}, 
-                {"title": "Three JS", "icon": "src/assets/Images/skill/threejs.svg"} 
+                {"title": "HTML5", "icon": "/src/assets/Images/skill/html-5.svg"},
+                {"title": "CSS3",  "icon": "/src/assets/Images//skill/css3.svg"},
+                {"title": "Bootstrap", "icon": "/src/assets/Images/skill/bootstrap.svg"},
+                {"title": "SASS", "icon": "/src/assets/Images/skill/sass.svg" },
+                {"title": "Jquery", "icon": "/src/assets/Images/skill/jquery.svg"},
+                {"title": "Javascript", "icon": "/src/assets/Images/skill/js.svg"},
+                {"title": "Wordpress", "icon": "/src/assets/Images/skill/wordpress.svg"},
+                {"title": "Elementor", "icon": "/src/assets/Images/skill/elementor.svg"},
+                {"title": "Webflow", "icon": "/src/assets/Images/skill/webflow.svg"},    
+                {"title": "React",  "icon": "/src/assets/Images/skill/react-js.svg"},
+                {"title": "Next",  "icon": "/src/assets/Images/skill/next.svg"},
+                {"title": "Tailwind",  "icon": "/src/assets/Images/skill/tailwind.svg"},
+                {"title": "GSAP",  "icon": "/src/assets/Images/skill/gsap.svg"}, 
+                {"title": "Three JS", "icon": "/src/assets/Images/skill/threejs.svg"} 
             ],
 
             "expireance":[ 
@@ -41,20 +41,20 @@
             ],
 
             "work":[
-                {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "src/assets/Images/work/bonefireeffect.png"},
-                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/continentalDiesel.jpeg"},
-                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/havis.jpg"},
-                {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets/Images/work/millennium.jpg"},
-                {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/Images/work/liquidspring.jpg"},
-                {"title": "Prieto", "category": "Wordpress", "url":"https://prieto.com/",  "img" : "src/assets/Images/work/prieto.jpg"}
+                {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "/src/assets/Images/work/bonefireeffect.png"},
+                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "/src/assets/Images/work/continentalDiesel.jpeg"},
+                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "/src/assets/Images/work/havis.jpg"},
+                {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "/src/assets/Images/work/millennium.jpg"},
+                {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "/src/assets/Images/work/liquidspring.jpg"},
+                {"title": "Prieto", "category": "Wordpress", "url":"https://prieto.com/",  "img" : "/src/assets/Images/work/prieto.jpg"}
             ],
 
             "tool":[ 
-                {"title": "HTML5", "icon": "src/assets/Images/tools/vscode.svg"},
-                {"title": "CSS3",  "icon": "src/assets/Images//tools/photoshop.svg"},
-                {"title": "Bootstrap", "icon": "src/assets/Images/tools/xd.svg"},
-                {"title": "SASS", "icon": "src/assets/Images/tools/figma.svg" },
-                {"title": "Jquery", "icon": "src/assets/Images/tools/illustrator.svg"}
+                {"title": "HTML5", "icon": "/src/assets/Images/tools/vscode.svg"},
+                {"title": "CSS3",  "icon": "/src/assets/Images/tools/photoshop.svg"},
+                {"title": "Bootstrap", "icon": "/src/assets/Images/tools/xd.svg"},
+                {"title": "SASS", "icon": "/src/assets/Images/tools/figma.svg" },
+                {"title": "Jquery", "icon": "/src/assets/Images/tools/illustrator.svg"}
             ]
 
         }
