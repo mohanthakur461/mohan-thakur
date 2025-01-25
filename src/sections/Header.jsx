@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 const navLinks = [
-  { title: 'Home', path : '/#home' },
-  { title: 'About', path : '/#aboutSection' },
+  { title: 'Home', path : '#home' },
+  { title: 'About', path : '#about' },
   { title: 'Work', path : '#work' },
   { title: 'Get In Touch', path : '#getintouch'},
 
@@ -11,14 +11,22 @@ const navLinks = [
 const Header = () => {
   const [nav, setNav] = useState(false);
   const toggleNav = () => {setNav(!nav)}
+
+  const handleScroll = (id) => {
+    const element = document.querySelector(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
-    <header className={`mainHeader w-full z-50  fixed bg-secondary`}>
-      <nav className={`navbar ${nav? "open-menu": ""}`}>
+    <header className={`mainHeader w-full z-50 sticky top-0 `}>
+      <nav className={`navbar bg-secondary ${nav? "open-menu": ""}`}>
         <div className="container flex justify-between items-center min-h-14">
-            <a className="navbar-brand relative" href="/">
-              <span className="header__title__text text-4xl text-white uppercase font-barlow">MohanT</span>
+            <a className="navbar-brand relative py-2 md:py-3" href="/">
+              <span className="header__title__text text-5xl text-white uppercase font-barlow">MohanT</span>
                 <svg className="logo--l overflow-visible absolute left-0 top-7 z-[2]" width="40" height="40" fill="none" viewBox="0 0 25 25" aria-hidden="true">
-                <g className="logo--l__circle scale-[0.2] translate-x-[63px]">
+                <g className="logo--l__circle scale-[0.2] translate-x-[85px] translate-y-[13px]">
                 <circle className="text-primary-400" fill="currentColor" cx="16.11" cy="5.5" r="15"></circle>
                 <text className="small-logo text-white hidden" fill="currentColor" x="30%" y="50%">M.</text>
                 </g>
@@ -31,14 +39,11 @@ const Header = () => {
                 <path className="line line3" fill="none" stroke="white" strokeOpacity="0.8" strokeWidth="6" strokeDasharray={`${nav? "90 207": "60 207"}`} strokeDashoffset={`${nav? "-134": "0"}`} d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
               </svg>
             </button>
-            <div className={`menu-col fixed md:static w-72 pt-16 md:pt-0 h-full md:h-auto top-0 right-0 p-5 md:p-0 md:w-auto bg-slate-800 md:bg-transparent transition-transform md:translate-x-0 ${nav? "translate-x-0": "translate-x-full"}`}>
+            <div className={`menu-col fixed md:static w-72 pt-16 md:pt-0 h-full md:h-auto top-0 right-0 p-5 md:p-0 md:w-auto bg-slate-800 md:bg-transparent transition-transform md:translate-x-0 z-[-10] md:z-10 ${nav? "translate-x-0": "translate-x-full"}`}>
               <ul className="navbar-nav flex gap-5 md:gap-12 flex-col md:flex-row">
                 { navLinks.map((link, index) => (
                       <li key={index} className="nav-item">
-                        <a className="text-2xl uppercase text-white opacity-80 py-4 inline-block font-barlow tracking-wide" href={link.path}  onClick={(e) => {
-                            e.preventDefault(); 
-                            document.getElementById(link.path)?.scrollIntoView({ behavior: "smooth" });
-                          }}>{link.title}</a>
+                        <a className="text-2xl uppercase text-white opacity-80 py-4 inline-block font-barlow tracking-wide" href={link.path}  onClick={() => handleScroll(link.path)}>{link.title}</a>
                       </li>
                   ))
                   }
@@ -50,4 +55,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

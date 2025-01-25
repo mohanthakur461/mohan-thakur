@@ -42,11 +42,11 @@
 
             "work":[
                 {"title": "Bonfire Effect", "category": "Wordpress", "url": "https://www.bonfireeffect.com/", "img" : "src/assets/Images/work/bonefireeffect.png"},
-                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/continental.jpg"},
-                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/havis.png"},
+                {"title": "Continental Diesel", "category": "Wordpress", "url": "https://continentaldiesel.com/", "img" : "src/assets/Images/work/continentalDiesel.jpeg"},
+                {"title": "Havis", "category": "Wordpress", "url": "https://www.havis.com/", "img" : "src/assets/Images/work/havis.jpg"},
                 {"title": "Millenium", "category": "Wordpress","url": "https://www.mymillennium.us/", "img" : "src/assets/Images/work/millennium.jpg"},
                 {"title": "Liquid Spring", "category": "Wordpress", "url": "https://liquidspring.com/", "img" : "src/assets/Images/work/liquidspring.jpg"},
-                {"title": "Rac-JAC", "category": "Wordpress", "url":"https://www.racjac.com/",  "img" : "src/assets/Images/work/racjac.png"}
+                {"title": "Prieto", "category": "Wordpress", "url":"https://prieto.com/",  "img" : "src/assets/Images/work/prieto.jpg"}
             ],
 
             "tool":[ 

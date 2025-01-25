@@ -4,7 +4,7 @@ import About from "./sections/About"
 import Footer from "./sections/Footer"
 import Header from "./sections/Header"
 import Hero from "./sections/Hero"
-import Projects from "./sections/Projects"
+//import Projects from "./sections/Projects"
 import Work from "./sections/Work"
 import data from './assets/sampleOut.json'
 import Radial from "./components/Radial"
@@ -22,8 +22,8 @@ function App() {
       </section>
       
       <About info={info}/>
-      <Projects/>
-      <Work info={info.work} />
+      {/* <Projects/> */}
+      <Work info={info} />
       <section className="brands py-8 space-y-1 md:space-y-3">
           <div className="whitespace-nowrap overflow-x-hidden space-x-1 md:space-x-3 relative">
             <Technology info={info.skill} />

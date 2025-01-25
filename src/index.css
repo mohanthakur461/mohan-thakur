@@ -4,7 +4,7 @@
 
 :root{
   --container:1440px;
-  --H1:calc(2.4125rem + 1.5vw);
+  --H1:calc(2rem + 1.5vw);
   --H2:calc(2.1725rem + .9vw);
   --H3:calc(1.9275rem + .6vw);
   --H4:calc(1.6825rem + .3vw);
@@ -24,12 +24,12 @@
   h6 { @apply text-h6 font-barlow;}
   a { @apply text-primary;}
   .container{@apply 2xl:!max-w-[var(--container)] px-6 mx-auto;}
-  .btn-primary{@apply text-white hover:text-secondary-dark text-lg px-8 py-3 min-w-sp-160 rounded-full bg-secondary-light border border-secondary-light;}
+  .btn-primary{@apply text-white hover:text-secondary-dark text-base md:text-lg px-8 py-3 min-w-sp-100 md:min-w-sp-160 rounded-full bg-secondary-light border border-secondary-light;}
   .btn{@apply relative top-0 translate-y-0 overflow-hidden before:bg-primary hover:before:rounded-none hover:before:translate-y-0;  }
   .btn:before{@apply absolute bottom-0 left-0 w-full h-full rounded-[100%] z-[-1] translate-y-full;
     transition: all 1s cubic-bezier(.19,1,.22,1);
   }
-  .sec-space{@apply py-sp-50 md:py-sp-100 xl:py-sp-130;}
+  .sec-space{@apply py-sp-50 md:py-sp-60 xl:py-sp-80;}
   
 }
 
