@@ -6,12 +6,12 @@ const Hero = ({info}) => {
       <div className="container !max-w-[900px] relative z-10 ">
           <div className='w-full flex flex-col justify-center items-center'>
                 <div className='main-profile w-full text-center mb-8'>
-                  <div className="profile-img mb-0 mx-auto w-[150px] h-[150px] relative overflow-hidden border-8 rounded-full bg-primary-900 border-secondary-light">
-                      <img src={info.profile} alt="Mohan Thakur" width={134} height={147}/> 
+                  <div className="profile-img mb-0 mx-auto w-44 h-44 relative overflow-hidden border-8 rounded-full bg-primary-900 border-secondary-light">
+                      <img src={info.profile} alt="Mohan Thakur" width={160} height={175}/> 
                   </div>
                 </div>
                 <h1 className="leading-tight text-center font-bold mb-5">👋 Hello I'm <span className="text-primary inline-block">{info.name}</span> I'm a <br className='hidden md:block'/> <span className='inline-block'>{info.designation}</span></h1>
-                <p className="mb-8 text-center">{info.brif}</p>
+                <p className="mb-8 text-center text-xl md:text-2xl">{info.brif}</p> 
                 <div className='btnGroup flex flex-wrap gap-4 justify-center'>
                   <button className='btn-primary btn w-full sm:w-auto'>Connect with me!</button>
                   <button className='btn-primary btn w-full sm:w-auto'>Download</button>
