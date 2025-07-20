@@ -22,7 +22,7 @@ function App() {
       </section>
       
       <About info={info}/>
-      {/* <Projects/> */}
+      {/* <Projects info={info} /> */}
       <Work info={info} />
       <section className="brands py-8 space-y-1 md:space-y-3">
           <div className="whitespace-nowrap overflow-x-hidden space-x-1 md:space-x-3 relative">

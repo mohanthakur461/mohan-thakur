@@ -4,8 +4,8 @@
 
 :root{
   --container:1440px;
-  --H1:calc(2rem + 1.5vw);
-  --H2:calc(2.1725rem + .9vw);
+  --H1:calc(2.3rem + 1.5vw);
+  --H2:calc(2.25rem + .9vw);
   --H3:calc(1.9275rem + .6vw);
   --H4:calc(1.6825rem + .3vw);
   --H5:calc(1.46625rem + .15vw);
@@ -23,8 +23,8 @@
   h5 { @apply text-h5 font-barlow;}
   h6 { @apply text-h6 font-barlow;}
   a { @apply text-primary;}
-  .container{@apply 2xl:!max-w-[var(--container)] px-6 mx-auto;}
-  .btn-primary{@apply text-white hover:text-secondary-dark text-base md:text-lg px-8 py-3 min-w-sp-100 md:min-w-sp-160 rounded-full bg-secondary-light border border-secondary-light;}
+  .container{@apply 2xl:!max-w-[var(--container)] px-5 mx-auto;}
+  .btn-primary{@apply text-white hover:text-secondary-dark text-xl md:text-lg px-8 py-4 min-w-sp-100 md:min-w-sp-160 rounded-full bg-secondary-light border border-secondary-light;}
   .btn{@apply relative top-0 translate-y-0 overflow-hidden before:bg-primary hover:before:rounded-none hover:before:translate-y-0;  }
   .btn:before{@apply absolute bottom-0 left-0 w-full h-full rounded-[100%] z-[-1] translate-y-full;
     transition: all 1s cubic-bezier(.19,1,.22,1);
@@ -134,4 +134,17 @@ button {
 .parallax span {
   display: block;
   margin-right: 30px;
+}
+
+
+
+@media (width <= 767px) {
+  :root{
+    --H1:44px;
+    --H2:48px;
+    /* --H3:calc(1.9275rem + .6vw);
+    --H4:calc(1.6825rem + .3vw);
+    --H5:calc(1.46625rem + .15vw);
+    --H6:calc(1.233125rem + .075vw); */
+  }
 }

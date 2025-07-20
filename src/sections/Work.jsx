@@ -4,7 +4,7 @@ const Work = ({info}) => {
   return (
     <section className='WorkSection md:py-sp-100' id="work">
        <div className='container'>
-            <h2 className='text-center uppercase font-bold mb-16'>Work</h2>
+            <h2 className='text-center uppercase font-bold mb-8 md:mb-16'>Work</h2>
             <ul className="workList grid gap-5 2xl:gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {info.work.map((item, index) => (
                     <li key={index} className='relative'>

@@ -43,7 +43,7 @@ const Header = () => {
               <ul className="navbar-nav flex gap-5 md:gap-12 flex-col md:flex-row">
                 { navLinks.map((link, index) => (
                       <li key={index} className="nav-item">
-                        <a className="text-2xl uppercase text-white opacity-80 py-4 inline-block font-barlow tracking-wide" href={link.path}  onClick={() => handleScroll(link.path)}>{link.title}</a>
+                        <a className="text-2xl uppercase text-white opacity-80 py-4 inline-block font-barlow tracking-wide" href={link.path}  onClick={() => {handleScroll(link.path); toggleNav()}}>{link.title}</a>
                       </li>
                   ))
                   }
